@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FreshMart Grocery Store</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <button id="topBtn">⬆</button>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="logo">
+
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <h2>FreshMart</h2>
+
+        </div>
+
+        <button id="themeBtn">🌙</button>
+
+        <section class="offer">
+
+            🎉 Flat 20% OFF on Fresh Fruits | Free Delivery above ₹999
+
+        </section>
+
+        <nav>
+
+            <a href="#">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <div class="icons">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <div class="cart">
+
+                 <a href="cart.html">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+
+                <span id="cart-count">0</span>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <h1>Fresh Groceries Delivered To Your Door</h1>
+
+            <p>
+
+                Buy fresh fruits, vegetables, dairy products,
+                bakery items and snacks at affordable prices.
+
+            </p>
+
+            <button>Shop Now</button>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CATEGORIES ================= -->
+
+    <section class="categories" id="categories">
+
+        <h2>Shop by Category</h2>
+
+        <div class="category-container">
+
+            <div class="category-card">
+
+                <i class="fa-solid fa-carrot"></i>
+
+                <h3>Vegetables</h3>
+
+            </div>
+
+            <div class="category-card">
+
+                <i class="fa-solid fa-apple-whole"></i>
+
+                <h3>Fruits</h3>
+
+            </div>
+
+            <div class="category-card">
+
+                <i class="fa-solid fa-cheese"></i>
+
+                <h3>Dairy</h3>
+
+            </div>
+
+            <div class="category-card">
+
+                <i class="fa-solid fa-bread-slice"></i>
+
+                <h3>Bakery</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SEARCH ================= -->
+
+    <section class="search-box">
+
+        <input type="text"
+            id="search"
+            placeholder="Search products...">
+
+    </section>
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <section class="products" id="products">
+
+        <h2>Featured Products</h2>
+
+        <div class="product-container">
+
+            <!-- Product -->
+
+            <div class="product-card" data-category="Fruits">
+
+                <img src="apple.jpg" alt="Apple">
+
+                <h3>Fresh Apple</h3>
+
+                <p>₹120 / kg</p>
+
+                <button>Add To Cart</button>
+
+            </div>
+
+            <!-- Product -->
+
+            <div class="product-card" data-category="Fruits">
+
+                <img src="banana.jpg" alt="Banana">
+
+                <h3>Banana</h3>
+
+                <p>₹60 / Dozen</p>
+
+                <button>Add To Cart</button>
+
+            </div>
+
+            <!-- Product -->
+
+            <div class="product-card" data-category="Fruits">
+
+                <img src="tomato.jpg" alt="Tomato">
+
+                <h3>Tomato</h3>
+
+                <p>₹40 / kg</p>
+
+                <button>Add To Cart</button>
+
+            </div>
+
+            <!-- Product -->
+
+            <div class="product-card" data-category="Dairy">
+
+                <img src="milk.jpg" alt="Milk">
+
+                <h3>Fresh Milk</h3>
+
+                <p>₹65</p>
+
+                <button>Add To Cart</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= WHY US ================= -->
+
+    <section class="why-us">
+
+        <h2>Why Choose FreshMart?</h2>
+
+        <div class="features">
+
+            <div class="feature">
+
+                🚚
+
+                <h3>Fast Delivery</h3>
+
+            </div>
+
+            <div class="feature">
+
+                🥬
+
+                <h3>Fresh Products</h3>
+
+            </div>
+
+            <div class="feature">
+
+                💳
+
+                <h3>Secure Payment</h3>
+
+            </div>
+
+            <div class="feature">
+
+                📞
+
+                <h3>24/7 Support</h3>
+
+            </div>
+
+        </div>
+
+        <section class="reviews">
+
+    <h2>Customer Reviews</h2>
+
+    <div class="review">
+
+        <h3>⭐⭐⭐⭐⭐</h3>
+
+        <p>
+            "The fruits were fresh and the delivery was very fast. Highly recommended!"
+        </p>
+
+        <h4>- Rahul Sharma</h4>
+
+    </div>
+
+    <div class="review">
+
+        <h3>⭐⭐⭐⭐⭐</h3>
+
+        <p>
+            "Best grocery store with affordable prices and excellent quality."
+        </p>
+
+        <h4>- Priya Patel</h4>
+
+    </div>
+
+    <div class="review">
+
+        <h3>⭐⭐⭐⭐⭐</h3>
+
+        <p>
+            "Easy ordering process and fresh vegetables every time."
+        </p>
+
+        <h4>- Arjun Kumar</h4>
+
+    </div>
+
+</section>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="about">
+
+        <h2>About FreshMart</h2>
+
+        <p>
+
+            FreshMart is an online grocery store that delivers
+            fresh fruits, vegetables, dairy products,
+            bakery items and daily essentials directly
+            to your doorstep.
+
+        </p>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact">
+
+        <h2>Contact Us</h2>
+
+        <form>
+
+            <input
+                type="text"
+                placeholder="Your Name"
+                required>
+
+            <input
+                type="email"
+                placeholder="Your Email"
+                required>
+
+            <textarea
+                placeholder="Your Message"></textarea>
+
+            <button type="submit">
+
+                Send Message
+
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <section class="newsletter">
+
+        <h2>Subscribe to our Newsletter</h2>
+
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <button onclick="subscribe()">Subscribe</button>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <h2>FreshMart</h2>
+
+        <p>
+
+            Fresh Food • Fast Delivery • Best Prices
+
+        </p>
+
+        <div class="social">
+
+            <i class="fab fa-facebook"></i>
+
+            <i class="fab fa-instagram"></i>
+
+            <i class="fab fa-twitter"></i>
+
+            <i class="fab fa-youtube"></i>
+
+        </div>
+
+        <p>
+
+            © 2026 FreshMart Grocery Store
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+
+</body>
+
+</html>
