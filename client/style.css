@@ -1,0 +1,212 @@
+body {
+    background-color: #f2f2f2;
+
+}
+
+h1 {
+    color: darkblue;
+    font-size: 40px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-btn {
+    background-color: green;
+}
+
+.register-btn {
+    background-color: orange;
+}
+
+.main-content {
+    text-align: center;
+    padding: 80px 20px;
+    margin: 30px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.header nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.header nav a:hover {
+    color: green;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.get-started-btn {
+    background-color: darkblue;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-content h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.main-content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+.auth-form {
+    width: 350px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.auth-form button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.posts-section {
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.posts-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.post-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.post-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.post-card small {
+    color: #777;
+}
+
+
+.post-actions {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.likeBtn {
+    border: none;
+    background: #1b0404;
+    padding: 8px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.likeBtn:hover {
+    background: #e5e5e5;
+}
+
+.comment-section {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.commentInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+.commentBtn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.comments-container {
+    margin-top: 15px;
+}
+
+.comment {
+    background: #ece5e5;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+.comment strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.comment p {
+    margin: 0 0 5px 0;
+}
+
+.comment small {
+    color: #777;
+}

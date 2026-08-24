@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>SocialHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <h1>SocialHub</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="profile.html">Profile</a>
+        <a href="register.html">Register</a>
+        <button id="logoutBtn">Logout</button>
+    </nav>
+
+</header>
+
+<main class="main-content">
+
+    <h2 id="welcomeText">Connect with people</h2>
+
+    <p>Share your thoughts, photos and experiences with friends.</p>
+
+    <button id="getStartedBtn" class="get-started-btn">Get Started</button>
+
+</main>
+
+
+<section class="create-post">
+
+    <h2>Create a Post</h2>
+
+    <textarea
+        id="postContent"
+        placeholder="What's on your mind?"
+        rows="4">
+    </textarea>
+
+    <button id="postBtn">Post</button>
+
+</section>
+
+<section class="posts-section">
+
+    <h2>Recent Posts</h2>
+
+    <div id="postsContainer">
+        Loading posts...
+    </div>
+
+</section>
+
+    <footer class="footer">
+
+        <p>© 2026 SocialHub</p>
+
+    </footer>
+
+<script src="script.js"></script>
+<script src="post.js"></script>
+
+</body>
+
+
+</html>
